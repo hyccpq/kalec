@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweet</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script scr="js/bootstarp.min.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        canvas{
+            border:1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+<canvas  width="800" height="400" id="tshirtCanvas"></canvas>
+<form class="form-inline">
+    <p class="from-group">
+        <label for="backgroundColor">选择背景颜色：</label>
+        <select name="" class="form-control" id="backgroundColor">
+            <option value="white" selected="selected">白色</option>
+            <option value="black">黑色</option>
+        </select>
+    </p>
+    <p class="form-group">
+        <label for="shape">形状：</label>
+        <select name="" class="form-control" id="shape">
+            <option value="none" selected="selected">无</option>
+            <option value="Circles">圆</option>
+            <option value="Squares">方</option>
+        </select>
+
+    </p>
+    <p class="from-group">
+        <label for="foregroundColor">选择文本颜色：</label>
+        <select name="" class="form-control" id="foregroundColor">
+            <option value="white" selected="selected">白色</option>
+            <option value="black">黑色</option>
+        </select>
+    </p>
+    <p class="from-group">
+        <label for="tweets">选择样式：</label>
+        <select name="" class="form-control" id="tweets">
+            <!--<option value="white" selected="selected">白色</option>-->
+            <!--<option value="black">黑色</option>-->
+        </select>
+    </p>
+    <div class="btn btn-success" id="previewButton">提交</div>
+</form>
+</body>
+</html>

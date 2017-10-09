@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画布</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script scr="js/bootstarp.min.js"></script>
+    <style>
+        canvas{
+            border:1px solid #000000;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.getElementById('tshirtCanvas');
+            var context = canvas.getContext('2d');
+            context.fillRect(70,50,100,100);
+        }
+    </script>
+</head>
+<body>
+<canvas width="600" height="300" id="tshirtCanvas"></canvas>
+</body>
+</html>
