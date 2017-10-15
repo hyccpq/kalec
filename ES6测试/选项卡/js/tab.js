@@ -15,6 +15,7 @@ class Tab{
                 console.log(this.iNow);
             }.bind(this);
         }
+
     }
     hide(){
         for(let i=0;i<this.aBtn.length;i++){
