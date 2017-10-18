@@ -1,0 +1,4 @@
+INFO |00000.382|JanusDebugSession: readConfig: {"name":"Launch Script on Server","request":"launch","type":"janus","script":"","username":"","password":"root","principal":"","host":"localhost","applicationPort":10000,"debuggerPort":8089,"currentConfiguration":true,"stopOnEntry":true,"log":{"fileName":"d:\\Project\\kalec\\kalec\\存储/vscode-janus-debug-launch.log","logLevel":{"default":"Debug"}},"timeout":6000,"__sessionId":"5647f6c5-11ef-4664-b8af-7c026451164a"}
+INFO |00000.383|JanusDebugSession: launchRequest
+ERROR|00000.387|JanusDebugSession: launchRequest failed: no script specified by user
+INFO |00000.390|JanusDebugSession: disconnectRequest; debug adapter running in launch config
