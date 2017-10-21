@@ -1,4 +1,4 @@
-var numberOfWorkers = 8;
+var numberOfWorkers = 16;
 var workers = [];
 var nextRow = 0;
 var rowData;
