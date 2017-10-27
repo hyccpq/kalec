@@ -1,0 +1,66 @@
+<component name="libraryTable">
+  <library name="jQuery-min" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="jQuery" />
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/ES6测试/面向对象-队列.js" />
+        <item url="file://$PROJECT_DIR$/ES6测试/模块化/模块.js" />
+        <item url="file://$PROJECT_DIR$/ES6测试/模块化/b.js" />
+        <item url="file://$PROJECT_DIR$/ES6测试/模块化/a.js" />
+        <item url="file://$PROJECT_DIR$/多线程/曼德勃罗图集/mandal.js" />
+        <item url="file://$PROJECT_DIR$/ES6测试/选项卡/js/tab.js" />
+        <item url="file://$PROJECT_DIR$/基础/Ajax.js" />
+        <item url="file://$PROJECT_DIR$/canvas/js/main.js" />
+        <item url="file://$PROJECT_DIR$/canvas/js/bootstrap.js" />
+        <item url="file://$PROJECT_DIR$/基础/性能优化/缓存DOM查询.js" />
+        <item url="file://$PROJECT_DIR$/基础/随机数长度一致.js" />
+        <item url="file://$PROJECT_DIR$/基础/性能优化/合并DOM查询.js" />
+        <item url="file://$PROJECT_DIR$/基础/性能优化/事件节流.js" />
+        <item url="file://$PROJECT_DIR$/基础/日期0000-00-00转换.js" />
+        <item url="file://$PROJECT_DIR$/存储/gt.js" />
+        <item url="file://$PROJECT_DIR$/存储/js/notetoself.js" />
+        <item url="file://$PROJECT_DIR$/存储/js/bootstrap.js" />
+        <item url="file://$PROJECT_DIR$/多线程/worker.js" />
+        <item url="file://$PROJECT_DIR$/多线程/manager.js" />
+        <item url="file://$PROJECT_DIR$/多线程/曼德勃罗图集/workerlib.js" />
+        <item url="file://$PROJECT_DIR$/多线程/曼德勃罗图集/worker.js" />
+        <item url="file://$PROJECT_DIR$/多线程/曼德勃罗图集/mandellib.js" />
+        <item url="file://$PROJECT_DIR$/AMD/util.js" />
+        <item url="file://$PROJECT_DIR$/社交应用/js/mightyGumball.js" />
+        <item url="file://$PROJECT_DIR$/社交应用/js/mightGumball1.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/ES6测试/面向对象-队列.js" />
+      <root url="file://$PROJECT_DIR$/ES6测试/模块化/模块.js" />
+      <root url="file://$PROJECT_DIR$/ES6测试/模块化/b.js" />
+      <root url="file://$PROJECT_DIR$/ES6测试/模块化/a.js" />
+      <root url="file://$PROJECT_DIR$/多线程/曼德勃罗图集/mandal.js" />
+      <root url="file://$PROJECT_DIR$/ES6测试/选项卡/js/tab.js" />
+      <root url="file://$PROJECT_DIR$/canvas/js/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/基础/Ajax.js" />
+      <root url="file://$PROJECT_DIR$/canvas/js/main.js" />
+      <root url="file://$PROJECT_DIR$/canvas/js/bootstrap.js" />
+      <root url="file://$PROJECT_DIR$/基础/性能优化/缓存DOM查询.js" />
+      <root url="file://$PROJECT_DIR$/基础/随机数长度一致.js" />
+      <root url="file://$PROJECT_DIR$/基础/性能优化/合并DOM查询.js" />
+      <root url="file://$PROJECT_DIR$/canvas/js/jquery-3.2.1.min.js" />
+      <root url="file://$PROJECT_DIR$/基础/性能优化/事件节流.js" />
+      <root url="file://$PROJECT_DIR$/基础/日期0000-00-00转换.js" />
+      <root url="file://$PROJECT_DIR$/存储/gt.js" />
+      <root url="file://$PROJECT_DIR$/存储/js/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/存储/js/notetoself.js" />
+      <root url="file://$PROJECT_DIR$/存储/js/bootstrap.js" />
+      <root url="file://$PROJECT_DIR$/存储/js/jquery-3.2.1.min.js" />
+      <root url="file://$PROJECT_DIR$/多线程/worker.js" />
+      <root url="file://$PROJECT_DIR$/多线程/manager.js" />
+      <root url="file://$PROJECT_DIR$/多线程/曼德勃罗图集/workerlib.js" />
+      <root url="file://$PROJECT_DIR$/多线程/曼德勃罗图集/worker.js" />
+      <root url="file://$PROJECT_DIR$/多线程/曼德勃罗图集/mandellib.js" />
+      <root url="file://$PROJECT_DIR$/AMD/util.js" />
+      <root url="file://$PROJECT_DIR$/社交应用/js/mightyGumball.js" />
+      <root url="file://$PROJECT_DIR$/社交应用/js/mightGumball1.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

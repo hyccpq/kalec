@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="requirejs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="jQuery-min" level="project" />
   </component>
 </module>
