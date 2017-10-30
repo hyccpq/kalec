@@ -1,0 +1,85 @@
+body,ul{
+    margin: 0;
+}
+#page {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#header {
+    width: 1000px;
+    height: 267px;
+    background: #414042;
+    /*z-index: 10;*/
+}
+#header ul {
+    padding-top: 133px;
+    padding-left: 364px;
+    list-style-type: none;
+}
+#header ul #name{
+    color: #fff;
+    font-size: 34px;
+}
+#header ul #work{
+    color: #939698;
+    font-size: 23px;
+}
+#left{
+    width: 363px;
+    float: left;
+    /*border-right: 3px solid #bfbfc1;*/
+    /*z-index: 1;*/
+    /*display: inline-block;*/
+}
+.box{
+    border-bottom:2px solid #bfbfc1;
+    color: #bfbfc1;
+}
+#left .box {
+    width: 288px;
+    margin: 0 16px 0 60px;
+}
+#left #CONTANT{
+    overflow: hidden;
+}
+
+#left #CONTANT p{
+    width: 230px;
+    height: 30px;
+    margin-left: 24px;
+    line-height: 30px;
+    float: left;
+}
+#left #CONTANT img{
+    width: 30px;
+    height: 30px;
+    margin: 16px 0 ;
+    float: left;
+}
+
+#left #img{
+    width: 270px;
+    height: 270px;
+    margin: -135px 16px 0 60px;
+    background: #dcddde center no-repeat;
+    -webkit-border-radius: 135px;
+    -moz-border-radius: 135px;
+    border-radius: 135px;
+}
+h3{
+    color: #00bef2;
+    font-weight: bold;
+}
+
+#right{
+    width: 634px;
+    float: left;
+    border-left: 3px solid #bfbfc1;
+    display: inline-block;
+}
+#right .box{
+    margin: 0 68px 0 25px;
+    width: 543px;
+}
