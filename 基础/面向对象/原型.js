@@ -1,3 +1,7 @@
+/**
+ *
+ * @constructor
+ */
 function Person() {
 
 }

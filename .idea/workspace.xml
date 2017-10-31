@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b736c6-a62a-4d3b-b17a-7f349a317f51" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/简历/img/IMG_9234_meitu_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/简历/Personal Resume.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/简历/css/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/基础/面向对象/1-组合模式.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/基础/面向对象/2-动态原型模式.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/基础/面向对象/3-稳妥模式.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/基础/面向对象/ES5简单实现原型语法.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/基础/面向对象/原型.js" afterPath="$PROJECT_DIR$/基础/面向对象/原型.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="原型.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="原型.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/基础/面向对象/原型.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="240">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="判断一个属性是否在原型中.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/基础/面向对象/判断一个属性是否在原型中.js">
+      <file leaf-file-name="ES5简单实现原型语法.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础/面向对象/ES5简单实现原型语法.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="450">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -42,39 +44,51 @@
       <file leaf-file-name="遍历多维数组.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础/面向对象/遍历多维数组.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state relative-caret-position="435">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="闭包1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础/闭包1.js">
+      <file leaf-file-name="判断一个属性是否在原型中.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础/面向对象/判断一个属性是否在原型中.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="去掉数组重复项.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础/去掉数组重复项.js">
+      <file leaf-file-name="1-组合模式.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础/面向对象/1-组合模式.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="540">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="call和apply方法.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础/call和apply方法.js">
+      <file leaf-file-name="2-动态原型模式.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础/面向对象/2-动态原型模式.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3-稳妥模式.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础/面向对象/3-稳妥模式.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,9 +137,13 @@
         <option value="$PROJECT_DIR$/基础/OOP.js" />
         <option value="$PROJECT_DIR$/基础/call和apply方法.js" />
         <option value="$PROJECT_DIR$/基础/面向对象/OOP.js" />
-        <option value="$PROJECT_DIR$/基础/面向对象/原型.js" />
-        <option value="$PROJECT_DIR$/基础/面向对象/判断一个属性是否在原型中.js" />
         <option value="$PROJECT_DIR$/基础/面向对象/遍历多维数组.js" />
+        <option value="$PROJECT_DIR$/基础/面向对象/判断一个属性是否在原型中.js" />
+        <option value="$PROJECT_DIR$/基础/面向对象/ES5简单实现原型语法.js" />
+        <option value="$PROJECT_DIR$/基础/面向对象/1-组合模式.js" />
+        <option value="$PROJECT_DIR$/基础/面向对象/2-动态原型模式.js" />
+        <option value="$PROJECT_DIR$/基础/面向对象/3-稳妥模式.js" />
+        <option value="$PROJECT_DIR$/基础/面向对象/原型.js" />
       </list>
     </option>
   </component>
@@ -185,6 +203,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="更改的文件">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="kalec" type="cbb8eebc:String" user="kalec" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="kalec" type="cbb8eebc:String" user="kalec" />
+              <item name="ES6测试" type="cbb8eebc:String" user="ES6测试" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,23 +234,13 @@
             <path>
               <item name="kalec" type="b2602c69:ProjectViewProjectNode" />
               <item name="kalec" type="462c0819:PsiDirectoryNode" />
+              <item name="基础" type="462c0819:PsiDirectoryNode" />
+              <item name="面向对象" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kalec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kalec" type="462c0819:PsiDirectoryNode" />
               <item name="简历" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="更改的文件">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="kalec" type="cbb8eebc:String" user="kalec" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="kalec" type="cbb8eebc:String" user="kalec" />
-              <item name="ES6测试" type="cbb8eebc:String" user="ES6测试" />
             </path>
           </expand>
           <select />
@@ -261,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.OOP.js">
     <configuration name="面向对象-队列.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="面向对象-队列.js" working-dir="$PROJECT_DIR$/ES6测试">
       <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" start="true" with-js-debugger="true" />
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
@@ -293,7 +317,76 @@
       <node-js-remote-debug />
     </configuration>
     <configuration name="选项卡" type="JavascriptDebugType" factoryName="JavaScript Debug" editBeforeRun="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/kalec/ES6测试/选项卡/选项卡.html" />
-    <configuration name="闭包1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/基础/闭包1.js" working-dir="$PROJECT_DIR$/基础/性能优化">
+    <configuration name="1-组合模式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="1-组合模式.js" working-dir="$PROJECT_DIR$/基础/面向对象">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="2-动态原型模式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="2-动态原型模式.js" working-dir="$PROJECT_DIR$/基础/面向对象">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="3-稳妥模式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="3-稳妥模式.js" working-dir="$PROJECT_DIR$/基础/面向对象">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="ES5简单实现原型语法.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ES5简单实现原型语法.js" working-dir="$PROJECT_DIR$/基础/面向对象">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -513,42 +606,23 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="call和apply方法.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="call和apply方法.js" working-dir="$PROJECT_DIR$/基础">
-      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
-        <option name="envVars">
-          <list />
-        </option>
-        <option name="extraHosts">
-          <list />
-        </option>
-        <option name="links">
-          <list />
-        </option>
-        <option name="networkDisabled" value="false" />
-        <option name="networkMode" value="bridge" />
-        <option name="portBindings">
-          <list />
-        </option>
-        <option name="publishAllPorts" value="false" />
-        <option name="version" value="1" />
-        <option name="volumeBindings">
-          <list />
-        </option>
-      </EXTENSION>
-    </configuration>
-    <list size="6">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Node.js.面向对象-队列.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.模块.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js Remote Debug.未命名" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.闭包1.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.call和apply方法.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.OOP.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.OOP.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.ES5简单实现原型语法.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.1-组合模式.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.2-动态原型模式.js" />
+      <item index="7" class="java.lang.String" itemvalue="Node.js.3-稳妥模式.js" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Node.js.OOP.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.call和apply方法.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.闭包1.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.3-稳妥模式.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.2-动态原型模式.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.1-组合模式.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.ES5简单实现原型语法.js" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +661,9 @@
       <workItem from="1509177162980" duration="2380000" />
       <workItem from="1509189900626" duration="10046000" />
       <workItem from="1509342318945" duration="14816000" />
-      <workItem from="1509371417214" duration="352000" />
+      <workItem from="1509371417214" duration="904000" />
+      <workItem from="1509425184588" duration="5197000" />
+      <workItem from="1509458720276" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="练习1.0">
       <created>1507555019930</created>
@@ -638,16 +714,24 @@
       <option name="project" value="LOCAL" />
       <updated>1509367114068</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="个人简历(to be continued)">
+      <created>1509371794078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1509371794078</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66394000" />
+    <option name="totallyTimeSpent" value="72484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15858799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15700738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
@@ -701,7 +785,8 @@
     <MESSAGE value="练习1.1。1" />
     <MESSAGE value="练习1.1.2" />
     <MESSAGE value="面向对象基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象基础" />
+    <MESSAGE value="个人简历(to be continued)" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人简历(to be continued)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -724,35 +809,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ES6测试/选项卡/js/tab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6测试/模块化/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6测试/模块化/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6测试/模块化/b.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ES6测试/选项卡/12.html" />
     <entry file="file://$PROJECT_DIR$/ES6测试/模块化/模块.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -988,6 +1044,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,22 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础/面向对象/原型.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础/call和apply方法.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础/闭包1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1052,18 +1102,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础/面向对象/遍历多维数组.js">
+    <entry file="file://$PROJECT_DIR$/基础/call和apply方法.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        <state relative-caret-position="210">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础/面向对象/判断一个属性是否在原型中.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="300">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/面向对象/1-组合模式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/面向对象/2-动态原型模式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/面向对象/3-稳妥模式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/面向对象/遍历多维数组.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/面向对象/ES5简单实现原型语法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/面向对象/原型.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
