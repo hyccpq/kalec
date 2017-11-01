@@ -7,7 +7,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/基础/面向对象/6-组合式继承.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/基础/面向对象/7-寄生组合式继承.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/基础/面向对象/1-组合模式.js" afterPath="$PROJECT_DIR$/基础/面向对象/1-组合模式.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -646,7 +645,7 @@
       <workItem from="1509371417214" duration="904000" />
       <workItem from="1509425184588" duration="5197000" />
       <workItem from="1509458720276" duration="738000" />
-      <workItem from="1509499965622" duration="11556000" />
+      <workItem from="1509499965622" duration="11586000" />
     </task>
     <task id="LOCAL-00001" summary="练习1.0">
       <created>1507555019930</created>
@@ -711,11 +710,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509459076372</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="面向对象">
+      <created>1509538100577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1509538100577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84437000" />
+    <option name="totallyTimeSpent" value="84467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
