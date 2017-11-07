@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = init;
+        function init() {
+            var aTextInp = document.getElementById("txt1"),
+                oBtn = document.getElementById('btn1'),
+                aTextOup = document.getElementById('txt2');
+
+            oBtn.onclick = function () {
+                console.log(aTextInp.value);
+                var re = /<[^<>]+>/g;
+                aTextOup.value = aTextInp.value.replace(re,'');
+
+            }
+        }
+    </script>
+</head>
+<body>
+<textarea name="" id="txt1" cols="30" rows="10" ></textarea>
+<input id="btn1" type="button" value="过滤">
+<textarea name="" id="txt2" cols="30" rows="10"></textarea>
+</body>
+</html>

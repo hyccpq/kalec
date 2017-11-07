@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = init;
+        function init() {
+            let aTxt = document.querySelector('#txt1');
+            let aBtn = document.querySelector('#btn');
+            aBtn.onclick = function () {
+                let re = /^\w+@[a-z]+\.[a-z]+$/;
+                if(re.test(aTxt.value)){
+                    alert('正确的邮箱');
+                } else {
+                    alert('写错了');
+                }
+
+            }
+        }
+    </script>
+</head>
+<body>
+<input id="txt1" type="text"><br>
+<input id="btn" type="button" value="检验">
+</body>
+</html>

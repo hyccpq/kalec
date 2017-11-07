@@ -605,7 +605,7 @@
       <workItem from="1509880345027" duration="45000" />
       <workItem from="1509936000471" duration="2163000" />
       <workItem from="1510024378858" duration="888000" />
-      <workItem from="1510032969518" duration="7274000" />
+      <workItem from="1510032969518" duration="7322000" />
     </task>
     <task id="LOCAL-00001" summary="练习1.0">
       <created>1507555019930</created>
@@ -684,11 +684,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509538212512</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="es6基础2">
+      <created>1510040595213</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1510040595213</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98575000" />
+    <option name="totallyTimeSpent" value="98623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -731,7 +738,8 @@
     <MESSAGE value="个人简历(to be continued)" />
     <MESSAGE value="面向对象" />
     <MESSAGE value="继承——理解了原型链后感觉很舒服" />
-    <option name="LAST_COMMIT_MESSAGE" value="继承——理解了原型链后感觉很舒服" />
+    <MESSAGE value="es6基础2" />
+    <option name="LAST_COMMIT_MESSAGE" value="es6基础2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
