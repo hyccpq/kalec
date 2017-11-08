@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{jQuery-min, requirejs-DefinitelyTyped}" />
-    <includedPredefinedLibrary name="WebGL" />
+    <file url="PROJECT" libraries="{express-DefinitelyTyped, express-ejs-layouts-DefinitelyTyped, jQuery-min, requirejs-DefinitelyTyped, vue-resource-DefinitelyTyped}" />
   </component>
 </project>
