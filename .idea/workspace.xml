@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b736c6-a62a-4d3b-b17a-7f349a317f51" name="默认的" comment="es6异步相关">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ES6测试/Generator应用.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ES6测试/Generator应用2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ES6测试/a.txt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/ES6测试/基础/修饰器.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ES6测试/test.html" afterPath="$PROJECT_DIR$/ES6测试/test.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -682,7 +678,7 @@
       <workItem from="1510471366337" duration="164000" />
       <workItem from="1510471548131" duration="4453000" />
       <workItem from="1510478198067" duration="139000" />
-      <workItem from="1510487146619" duration="524000" />
+      <workItem from="1510487146619" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="练习1.0">
       <created>1507555019930</created>
@@ -817,11 +813,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510326110390</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="es6异步相关2">
+      <created>1510487705586</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1510487705586</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181577000" />
+    <option name="totallyTimeSpent" value="181649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -894,7 +897,8 @@
     <MESSAGE value="es6新增数据结构" />
     <MESSAGE value="css3 3d有点爽" />
     <MESSAGE value="es6异步相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="es6异步相关" />
+    <MESSAGE value="es6异步相关2" />
+    <option name="LAST_COMMIT_MESSAGE" value="es6异步相关2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
