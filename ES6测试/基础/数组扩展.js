@@ -4,13 +4,13 @@
 }
 
 {
-    for(let index of ['1','c','te'].keys()){
+    for(let index of ['vue基础','c','te'].keys()){
         console.log('key',index);
     }
-    // for(let value of ['1','r','43'].values()){
+    // for(let value of ['vue基础','r','43'].values()){
     //     console.log('values',value);
     // }//gulp下运行
-    for(let [index,value] of ['1','43','red'].entries()){
+    for(let [index,value] of ['vue基础','43','red'].entries()){
         console.log('values',index,value);
     }
 

@@ -5,7 +5,7 @@
 {
     console.log('15',Number.isFinite(15));
     console.log('NaN',Number.isFinite(NaN));
-    console.log('1/0',Number.isFinite('true'/0));
+    console.log('vue基础/0',Number.isFinite('true'/0));
     console.log('0',Number.isNaN(0));
 }
 

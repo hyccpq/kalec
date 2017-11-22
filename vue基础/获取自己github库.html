@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+<div id="MyGit">
+    <ul>
+        <li v-for="item in repos">
+            <span>{{item.name}}</span>
+        </li>
+    </ul>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+let api = 'https://api.github.com/users/hyccpq/repos?type';
+let myGit = new Vue({
+    el:'#MyGit',
+    data:{
+        repos:[]
+    },
+    created(){
+        this.fetchData();
+    },
+    methods:{
+        fetchData(){
+            let xhr = new XMLHttpRequest();
+            let self = this;
+            xhr.open('get',api);
+            xhr.onload = function () {
+                self.repos = JSON.parse(xhr.responseText);
+                console.log(self.repos[0].name);
+            };
+            xhr.send();
+        }
+    }
+
+});
+
+</script>
+</body>
+</html>

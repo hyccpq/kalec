@@ -13,7 +13,7 @@ console.log(Fibonacci(1000));
  * 原递归实现
  * */
 // function Fibonnacci(n){
-//     if(n <= 1)return 1;
-//     return Fibonnacci(n-1)+Fibonnacci(n-2);
+//     if(n <= vue基础)return vue基础;
+//     return Fibonnacci(n-vue基础)+Fibonnacci(n-2);
 // }
 // console.log(Fibonnacci(10));

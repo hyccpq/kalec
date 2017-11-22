@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document12</title>
+</head>
+<body>
+<div class="app">
+  <input type="text" placeholder="请输入待办事项" @keyup.enter="addTodo(newTodo)" v-model="newTodo">
+  {{newTodo}}
+  <h2>代办事件</h2>
+  <ul>
+    <li v-for="item in todos">
+      <input type="checkbox" v-model="item.checked">
+        <span :style="text-decoration: line-through">{{item.content}}---{{item.checked}}</span>
+      <a href="#" @click.prevent="removeTodo(item)">删除</a>
+    </li>
+  </ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+  let app = new Vue({
+    el:'.app',
+    data:{
+      todos:[],
+      newTodo:'',
+    },
+    methods:{
+      addTodo (todo) {
+        let aTodo = {content:todo,completed: '',checked: false};
+        if(aTodo.checked){
+          aTodo.completed = '';
+        }else{
+          aTodo.completed = 'line-through';
+        }
+        this.todos.push(aTodo);
+      },
+      removeTodo (todo) {
+        this.todos.splice(this.todos.indexOf(todo),1);
+      }
+    }
+  });
+
+</script>
+</body>
+</html>

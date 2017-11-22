@@ -48,7 +48,7 @@
 
 // {
 //     let state = async function () {
-//         while(1){
+//         while(vue基础){
 //             await 'a';
 //             await 'b';
 //             await 'c';

@@ -10,7 +10,7 @@ console.log(factorial(160));
  * 原递归阶乘
  * */
 // function factorial(n) {
-//     if(n === 1)return 1;
-//     return n * factorial(n-1);
+//     if(n === vue基础)return vue基础;
+//     return n * factorial(n-vue基础);
 // }
 // console.log(factorial(160));

@@ -11,7 +11,7 @@
     let s = '𠮷';
     console.log('length',s.length);
     console.log('0',s.charAt(0));
-    console.log('1',s.charAt(1));
+    console.log('vue基础',s.charAt(1));
     console.log('2',s.charCodeAt(0));
     console.log('3',s.charCodeAt(1));
     let s1 = '𠮷s';

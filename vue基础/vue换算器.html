@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document1212</title>
+</head>
+<body>
+<div id="app">
+  输入需要转换的金额<input type="text" value="人民币金额" v-model="rmb">
+  <ul>
+    <li>日元:{{rmb*16.934}}</li>
+    <li>美元:{{rmb*0.1511}}</li>
+  </ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+  let app = new Vue({
+      el:'#app',
+      data:{
+          rmb:0,
+      }
+  })
+</script>
+</body>
+</html>
