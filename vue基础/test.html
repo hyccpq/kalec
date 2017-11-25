@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+
+</head>
+<body>
+<div id="app">
+    <div>count if parent:{{ counts }}</div><div><button @click="counts.num++">add</button></div>
+    <br>
+    <my-component :count="counts"></my-component>
+    <my-component :count="counts"></my-component>
+    <my-component :count="counts"></my-component>
+    <my-component :count="counts"></my-component>
+    <my-component :count="counts"></my-component>
+</div>
+<script type="text/x-template" id="my-component">
+        <div class="component">
+            <span>{{c}}</span>---<button @click="c++">add</button>
+        </div>
+    </script>
+<script>
+    Vue.component('my-component',{
+        template:'#my-component',
+        props:['count'],
+        data(){
+            return {
+                c:this.count.num
+            }
+        }
+    });
+
+    new Vue({
+        el:'#app',
+        data:{
+            counts:{
+                num:5
+            }
+        }
+    });
+</script>
+</body>
+</html>
