@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b736c6-a62a-4d3b-b17a-7f349a317f51" name="默认的" comment="vue基础">
-      <change beforePath="" afterPath="$PROJECT_DIR$/node/argv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node/fs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node/modA.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node/modB.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node/timer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vue基础/Event.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vue基础/test.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/小玩意/Update CSS Variable with JS.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/kalec.iml" afterPath="$PROJECT_DIR$/.idea/kalec.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -682,7 +672,7 @@
       <workItem from="1511524603566" duration="6352000" />
       <workItem from="1511531661460" duration="6000" />
       <workItem from="1511531781489" duration="227000" />
-      <workItem from="1511594377587" duration="645000" />
+      <workItem from="1511594377587" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="练习1.0">
       <created>1507555019930</created>
@@ -845,20 +835,26 @@
       <option name="project" value="LOCAL" />
       <updated>1511595585281</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="node">
+      <created>1511595616309</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1511595616309</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202184000" />
+    <option name="totallyTimeSpent" value="202226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="593" y="232" width="273" height="619" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.50421494" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32814237" sideWeight="0.50421494" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.196468" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26362625" sideWeight="0.4915701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947257" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -904,7 +900,8 @@
     <MESSAGE value="es6异步相关2" />
     <MESSAGE value="es2017修饰器" />
     <MESSAGE value="vue基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue基础" />
+    <MESSAGE value="node" />
+    <option name="LAST_COMMIT_MESSAGE" value="node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
