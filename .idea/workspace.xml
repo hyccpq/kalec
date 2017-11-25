@@ -682,7 +682,7 @@
       <workItem from="1511524603566" duration="6352000" />
       <workItem from="1511531661460" duration="6000" />
       <workItem from="1511531781489" duration="227000" />
-      <workItem from="1511594377587" duration="614000" />
+      <workItem from="1511594377587" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="练习1.0">
       <created>1507555019930</created>
@@ -838,11 +838,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511363486746</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="vue基础">
+      <created>1511595585281</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1511595585281</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202153000" />
+    <option name="totallyTimeSpent" value="202184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
