@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clock</title>
+    <style>
+        #clock {
+            width: 300px;
+            height: 300px;
+            border: 10px solid black;
+            border-radius: 300px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .hand{
+            position: absolute;
+            background: black;
+            /* transform: rotate(90deg); */
+            transform-origin: 100%;
+        }
+        .hand-s{
+            width: 130px;
+            height: 2px;
+            margin-left: 20px;
+            top: 149px;
+            transition: .1s;
+            transition-timing-function: linear;
+        }
+        .hand-m{ 
+            width: 120px; 
+            height: 4px; 
+            margin-left: 30px;
+            top: 148px;
+        }
+        .hand-h{ 
+            width: 90px; 
+            height: 6px; 
+            margin-left: 60px;
+            top: 147px;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock">
+        <div class="hand hand-h"></div>
+        <div class="hand hand-m"></div>
+        <div class="hand hand-s"></div>
+    </div>
+
+    <script>
+        const aDivSecond = document.querySelector('.hand-s');
+        const aDivMin = document.querySelector('.hand-m');
+        const aDivHour = document.querySelector('.hand-h');
+        
+        function setDate(){
+            const now = new Date();
+            // console.log(time.getTime());
+            const time = now.getHours()*3600 + now.getMinutes()*60 + now.getSeconds();
+            const seconds = time;
+            const min = time/60;
+            const hour = time/60/60;
+            
+            let degSec = (seconds/60)*360;
+            aDivSecond.style.transform = `rotate(${degSec+90}deg)`;
+            aDivMin.style.transform = `rotate(${(min/60)*360+90}deg)`;
+            aDivHour.style.transform = `rotate(${(hour/12)*360+90}deg)`;
+        }
+        
+
+        setInterval(setDate,1000);
+    </script>
+</body>
+</html>
