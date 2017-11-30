@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cl{
+            background: #d59400;
+        }
+    </style>
+</head>
+<body>
+<input type="text" id="search" readonly="readonly">
+<ul id="city">
+
+</ul>
+<script>
+    const url = 'http://jisuarea.market.alicloudapi.com/area/all';
+    let cities = [];
+    const searchInput = document.querySelector('#search');
+    const suggestions = document.querySelector('#city');
+
+    fetch(url,{
+        method:"GET",
+        headers: {
+            "Authorization":"APPCODE 3540a85ad30a4109a7a412b174452608"
+        }
+    })
+        .then(response => response.json())
+        .then(data => cities.push(...data.result)).catch(e => console.warn(e))
+        .then(searchInput.removeAttribute("readonly")).then(alert('done!!'));
+
+    function findMatches(wordToMatch,cities) {
+        return cities.filter(place => {
+            const regex = new RegExp(wordToMatch,'g');
+            return place.name.match(regex) || place.parentname.match(regex);
+        })
+    }
+
+    function dispalyMatches() {
+        const matchArray = findMatches(this.value,cities);
+        // console.log(matchArray);
+        const html = matchArray.map(place => {
+            const regex = new RegExp(this.value, 'g');
+            const cityName = place.name.replace(regex,`<span class="cl">${this.value}</span>`);
+            const parentName = place.parentname.replace(regex,`<span class="cl">${this.value}</span>`);
+
+            return `
+            <li>
+                <span class="name">${cityName} ${parentName}    ${place.zipcode}</span>
+            </li>
+            `
+        }).join('');
+        // console.log(html);
+        suggestions.innerHTML = html;
+    }
+
+
+
+    searchInput.addEventListener('click',dispalyMatches);
+    searchInput.addEventListener('keyup',dispalyMatches);
+</script>
+</body>
+</html>
